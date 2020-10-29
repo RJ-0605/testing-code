@@ -1,0 +1,15 @@
+npm install --save-dev jest
+
+package.json
+
+"jest": {
+   "testEnvironment": "node"
+ }
+
+Describe blocks can be used for grouping tests into logical collections. 
+The test output of Jest also uses the name of the describe block:
+
+ Windows users: Jest may not work if the path of the project directory contains 
+ a directory that has spaces in its name.
+
+
